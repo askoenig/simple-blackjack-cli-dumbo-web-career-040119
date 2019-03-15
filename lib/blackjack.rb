@@ -29,9 +29,9 @@ def initial_round
 end
 
 def hit?(amount)
+  puts display_card_total
   prompt_user
   get_user_input
-  return display_card_total
 end
 
 def invalid_command
