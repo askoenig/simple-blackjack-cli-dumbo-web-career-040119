@@ -28,7 +28,8 @@ def initial_round
   sum
 end
 
-def hit?(yes_or_no)
+def hit?(amount)
+  puts "#{amount}"
   prompt_user
   get_user_input
 end
