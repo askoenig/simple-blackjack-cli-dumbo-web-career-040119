@@ -29,7 +29,6 @@ def initial_round
 end
 
 def hit?(amount)
-  puts "#{amount}"
   prompt_user
   get_user_input
 end
